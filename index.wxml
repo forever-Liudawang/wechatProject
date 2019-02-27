@@ -1,0 +1,38 @@
+<!-- <a-img Imgsrc="{{'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4118960086,2125569760&fm=27&gp=0.jpg'}}"
+       text="{{'交水电费三大帝国十多个'}}"/>
+
+<a-pureText text="{{'打发大噶法国梵蒂冈地方官梵蒂冈顺丰大概'}}"
+            direction="{{'感地方官梵蒂冈的是'}}"/>
+
+<a-textImg text='{{"防灌水灌水是官方还是返回格式返回给回是打发法地沟油即将赶赴复的规划规范"}}' 
+          direction='{{"风格化的风格和"}}'
+          Imgsrc='{{"https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3365018759,2226705862&fm=27&gp=0.jpg"}}'/>
+
+<a-nineImg/>
+<a-video Imgsrc="http://wxsnsdy.tc.qq.com/105/20210/snsdyvideodownload?filekey=30280201010421301f0201690402534804102ca905ce620b1241b726bc41dcff44e00204012882540400&bizid=1023&hy=SH&fileparam=302c020101042530230204136ffd93020457e3c4ff02024ef202031e8d7f02030f42400204045a320a0201000400"
+         poster="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549869483356&di=60beae489ca7038d7964a14a9852fbe4&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170530%2Fa59c11d8698940f5aa453d6a6f7dc05f_th.jpg"
+         time="30'" 
+         text="的非官方糊酷鱼"
+         videoId="20180211"/>
+<a-tag tagText="读书" tagId="3"/>
+<a-more tag="心理"/>
+<a-like/> -->
+<!-- <a-article wx:for="{{articleList}}"
+           wx:key="{{item.artId}}" 
+           articleDetail="{{item}}" 
+           style="margin-left:10rpx;backgroundColor:#fff"/> -->
+
+<d-nav class="nav" bind:navClick="navTap"/>
+<d-recommend recommend="{{recommendInfo}}" class="recommend" magazineId="{{magazineId}}"/>
+<d-tagList markList="{{markTypeList}}">
+       <d-add slot="before" wx:if="{{magazineId==0}}"/>
+       <view slot="after" class="to-catalog" catch:tap="toCatalogClick" wx:if="{{magazineId==0}}">•••</view>
+</d-tagList>
+<view class="Box">
+       <a-articleList articleList="{{articleList}}" 
+                      more="{{getMore}}"
+                      magazineId="{{magazineId}}"/>
+</view>
+<view class="loadingContainer" wx:if="{{loading}}">
+       <d-loading class="loading"/>
+</view>
