@@ -1,0 +1,9 @@
+.likeBox{
+    width: 50rpx;
+    height: 50rpx;
+
+}
+.likeImg, .unlikeImg{
+    width: 100%;
+    height: 100%;
+}

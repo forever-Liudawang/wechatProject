@@ -1,0 +1,3 @@
+<view class="moreBox" catch:tap="moreTap">
+    <image class="img" src="/img/icon/Icon_more.png" />
+</view>

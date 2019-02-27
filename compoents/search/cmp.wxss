@@ -1,0 +1,15 @@
+.searchBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+    width: 600rpx;
+    padding: 10rpx 4rpx;
+    padding-right: 10rpx;
+    background-color: rgb(240, 238, 238);
+    font-size: 35rpx;
+}
+.searchBtn{
+   line-height: 62rpx;
+}

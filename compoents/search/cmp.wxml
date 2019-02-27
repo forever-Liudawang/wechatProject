@@ -1,0 +1,7 @@
+<view class="searchBox">
+    <input class="input" placeholder="青芒什么都有" 
+                         bindconfirm="onSearch" 
+                         bindinput="onInput"
+                         value="{{value}}"/>
+    <text class="searchBtn" catch:tap="onSearch">搜索</text>
+</view>

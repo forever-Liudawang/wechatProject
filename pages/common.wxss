@@ -1,0 +1,84 @@
+.wrapper2{
+    margin: 50rpx 20rpx;
+    display: flex;
+    flex-direction: column;
+    background-color:#fff;
+}
+
+.top{
+    position: relative;
+    vertical-align: middle;
+}
+.tou{
+    width: 60rpx;
+    height: 60rpx;
+    border-radius: 50%;
+    position: absolute;
+    left: 40rpx;
+    top: 12rpx;
+}
+.fns{
+    font-size: 30rpx;
+    position: absolute;
+    left: 120rpx;
+    top: 20rpx;
+    color: rgb(187, 178, 178);
+}
+.image{
+    text-align: center;
+}
+.img{
+    margin-top: 100rpx;
+    width:710rpx;
+}
+.direct{
+    display: inline-block;
+    margin-left: 40rpx;
+    height: 50rpx;
+
+}
+.bottom{
+    margin-top: 50rpx;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100rpx;
+}
+.read{
+    position: absolute;
+    left: 40rpx;
+    top: 20rpx;
+    font-size: 30rpx;
+    letter-spacing: 5rpx;
+    color: rgb(161, 153, 153);
+}
+.dian,.share,.like{
+    width: 40rpx;
+    height: 40rpx;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+.dian{
+    left: 500rpx;
+    top: 14rpx;
+}
+.share{
+    margin-left: -24rpx;
+}
+.like{
+    left: 640rpx;
+    top: 14rpx;
+    
+}
+.sharebtn{
+    width: 40rpx;
+    height: 40rpx;
+    background-color: transparent;
+    margin-left: 570rpx;
+    margin-top: 14rpx;
+}
+.sharebtn::after{
+    border:none;
+}

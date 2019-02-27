@@ -1,0 +1,47 @@
+.videoBox{
+    padding: 0 30rpx;
+
+}
+.vid{
+    width: 100%;
+}
+.box{
+    width: 100%;
+    position: relative;
+}
+.img{
+    width: 100%;
+}
+.circle{
+    width: 90rpx;
+    height: 90rpx;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+.No{
+    width: 40rpx;
+    height: 40rpx;
+    margin-top: 6rpx;
+}
+.time{
+    font-size: 30rpx;
+}
+.text{
+    font-size:40rpx;
+    color: rgb(31, 28, 28);
+}
+.mask{
+    width: 750rpx;
+    height:1399rpx;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6)    
+}

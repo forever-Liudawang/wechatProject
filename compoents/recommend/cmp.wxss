@@ -1,0 +1,61 @@
+.recommendBox{
+    width: 100%;
+    padding:10rpx 20rpx; 
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    font-size: 55rpx;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 40rpx;
+}
+.date::after{
+    display: block;
+    content: "";
+    width: 120rpx;
+    position: absolute;
+    height: 4rpx;
+    background-color: rgb(148, 130, 130);
+    margin-top: 30rpx;
+    left: 50%;
+    transform:translateX(-50%)
+}
+.direction{
+    color: rgb(129, 121, 121);
+    font-size: 40rpx;
+    padding: 10rpx;
+}
+.image,.mark{
+    margin-top: 10rpx;
+    height: 700rpx;
+    width: 100%
+}
+.mark{
+    background-color: rgba(129, 126, 126,.6);
+    position: relative;
+}
+.circle{
+    width: 50rpx;
+    height: 50rpx;
+    border: 10rpx solid rgb(199, 189, 189);
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    animation:1s  load infinite;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -25rpx;
+    margin-left: -25rpx;
+}
+@keyframes load{
+    from{
+        transform: rotate(0deg) 
+    }to{
+        transform: rotate(360deg) 
+    }
+}

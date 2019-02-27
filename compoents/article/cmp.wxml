@@ -1,0 +1,33 @@
+<view class="bigBox">
+    <view class="head">
+        <image class="img" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4118792058,1226806534&fm=27&gp=0.jpg" />
+        <text class="name">{{articleDetail.mark.people}}等{{articleDetail.mark.count}}人马克了</text>
+    </view>
+    <view class="mainBox">
+        <a-img wx:if="{{articleDetail.type===0}}"
+                Imgsrc="{{articleDetail.imgArray}}"
+                text="{{articleDetail.mainTitle}}"/>
+        <a-pureText  wx:if="{{articleDetail.type===4}}"
+                     text="{{articleDetail.mainTitle}}"
+                     direction="{{articleDetail.subHead}}"/>
+        <a-video  wx:if="{{articleDetail.type===3}}"
+                  Imgsrc="{{articleDetail.video.src}}"
+                  poster="{{articleDetail.video.poster}}"
+                  time="{{articleDetail.video.duration}}"
+                  text="{{articleDetail.mainTitle}}"
+                  videoId="{{articleDetail.video.id}}"/>
+        <a-nineImg  wx:if="{{articleDetail.type===1}}"/>
+        <a-textImg  wx:if="{{articleDetail.type===2}}"
+                    text="{{articleDetail.mainTitle}}"
+                    direction="{{articleDetail.subHead}}"
+                    Imgsrc="{{articleDetail.imgArray}}"/>
+    </view>
+    <view class="controal">
+        <a-tag tagText="{{articleDetail.tag}}" class="tag" />
+        <view class="btn">   
+            <d-imgBtn class="share" open-type="share"/>     
+            <a-more class="more" tag="{{articleDetail.tag}}"/>
+            <a-like class="like" catch:like="onLike"  likeFlag="{{likeStatus}}"/>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,8 @@
+.moreBox{
+    width: 45rpx;
+    height: 25rpx;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}

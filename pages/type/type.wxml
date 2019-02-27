@@ -1,0 +1,43 @@
+<view class="container">
+
+<view class="imgBox">
+<image class="imgTitle" src="/img/list/article/5.png" />
+</view>
+
+<view class="direction">
+    <text class="txt">{{list[index]}}</text>
+    <view class="imgDir">
+        <image class="shareDir" src="/img/icon/Icon_more.png"/>
+        <image class="more" src="/img/icon/Icon_relay.png" />
+    </view>
+</view>
+
+
+
+<view class="wrapper2" wx:for="{{articleList}}" we:key='index' bind:tap="articleClick" data-articleId="{{item.id}}">
+     <view class="top">
+         <image class="tou" src="{{item.markPeopleAvatar}}" />
+         <!-- <text class="fns">neffy等96人马克了</text> -->
+         <view class="fns">
+            <text >{{item.markPeople}}</text>
+            <text >等</text>
+            <text >{{item.markCount+"人"}}</text>
+            <text >mark了</text>
+         </view>
+     </view>
+     <view class="image">
+         <image class="img" src="/img/list/article/7.png"/>
+     </view>
+     <view class="direct">
+         <text class="dir">{{item.articleTitle}}</text>
+     </view>
+     <view class="bottom">
+         <text class="read">{{dayList[index]}}</text>
+         <button class="sharebtn" open-type="share"><image class="share" src="/img/icon/Icon_relay.png"/></button>
+         <image class="dian"  bind:tap="click"  data-read="{{item.articleType}}" src="/img/icon/Icon_more.png"/>
+         <image class="like" src="/img/icon/Icon_circle_fill.png" wx:if="{{list[index]}}" bind:tap="selectLike" data-select="{{index}}"/>
+         <image class="like" src="/img/icon/Icon_circle.png" wx:else  bind:tap="selectLike" data-select="{{index}}"/>
+     </view>
+</view>
+
+</view>

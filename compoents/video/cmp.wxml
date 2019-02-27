@@ -1,0 +1,12 @@
+<view class="videoBox">
+    <video class="vid" id="{{videoId}}" src="{{Imgsrc}}" hidden="{{showPoster}}"/>
+    <view class="box" hidden="{{!showPoster}}">
+        <image class="img" src="{{poster}}"/>
+        <view class="circle" catch:tap="circleTap">
+            <image class="No" src="./img/播放按钮.png"/>
+            <text class="time">{{time}}</text>
+        </view>
+    </view>
+    <view class="text">{{text}}</view>
+    <view class="mask" hidden="{{showPoster}}" catch:tap="maskTap"></view>
+</view>

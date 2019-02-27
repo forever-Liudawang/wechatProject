@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "d-dingyue":"/compoents/dingyue/cmp",
+    "d-tagList":"/compoents/tagList/cmp",
+    "d-add":"/compoents/add/cmp",
+    "d-search":"/compoents/search/cmp"
+    
+
+  }
+}

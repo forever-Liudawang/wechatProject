@@ -1,0 +1,56 @@
+.catalogBox{
+    padding: 0 20rpx;
+}
+.typeList{
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.typeBox{
+    width: 100%;
+    margin-bottom:35rpx;
+    display: block;
+}
+.title{
+    letter-spacing: 4rpx;
+}
+.type{
+    margin-top:20rpx;
+    position: relative;
+    height: 40rpx;
+    margin-bottom: 60rpx;
+}
+.typeName{
+    position: absolute;
+    left: 0;
+}
+.typeStatus{
+    position: absolute;
+    right: 0;
+}
+.getList{
+    width: 100%;
+    display: inline-block;
+}
+.zaZhi{
+    display: block;  
+    width: 100%;
+    position: relative;
+    margin-bottom: 60rpx;
+    box-sizing: border-box;
+}
+.myZaZhi{
+    color: rgb(170, 160, 160);
+    position: absolute;
+    font-size: 45rpx;
+    left: 0;
+}
+.controalZaZhi{
+    font-size: 32rpx;
+    color: rgb(112, 106, 106);
+    position: absolute;
+    right: 0;
+}
+.search{
+    margin-bottom: 50rpx;
+}

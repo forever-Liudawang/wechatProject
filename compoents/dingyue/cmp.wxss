@@ -1,0 +1,17 @@
+.get{
+    width: 130rpx;
+    height: 65rpx;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    line-height: 65rpx;
+    font-size: 30rpx;
+}
+.geted{
+    width: 130rpx;
+    height: 65rpx;
+    border:1px solid rgb(168, 157, 157);
+    text-align: center;
+    line-height: 65rpx;
+    font-size: 30rpx;
+}

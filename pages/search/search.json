@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "d-search":"/compoents/search/cmp",
+    "d-articleList":"/compoents/articleList/cmp"
+  }
+}

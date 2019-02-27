@@ -1,0 +1,13 @@
+.box{
+    padding: 0 30rpx;
+}
+.maintext{
+    font-size: 40rpx;
+    font-weight: 400;
+    color: rgb(42, 43, 44);
+    margin-bottom: 30rpx;
+}
+.direction{
+    font-size: 30rpx;
+    color: rgb(143, 147, 150);
+}

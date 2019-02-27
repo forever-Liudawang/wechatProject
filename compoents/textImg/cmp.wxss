@@ -1,0 +1,31 @@
+.textImgBox{
+    padding: 0 30rpx;
+    display: flex;
+    align-content: center;
+}
+
+.Text{
+    display: inline-block;
+    width: 400rpx; 
+    margin-right: 20rpx;   
+}
+
+.mainText{
+    width: 100%;
+    font-size: 40rpx;
+    color: rgb(52, 53, 53);
+    margin-bottom: 10rpx;
+}
+
+.direction{
+    width: 100%;
+    color: rgb(153, 158, 161);
+    font-size: 30rpx;
+}
+.imgBox{
+    width: 300rpx;
+}
+.img{
+    width:100%;
+    height: 300rpx;
+}

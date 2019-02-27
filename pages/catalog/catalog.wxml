@@ -1,0 +1,24 @@
+<view class="catalogBox">
+    <view class="search">
+        <d-search value="{{returnValue}}"/>
+    </view>
+    <view class="getList">
+        <view class="zaZhi">
+            <text class="myZaZhi">我的杂志</text>
+            <text class="controalZaZhi">管理杂志</text>
+        </view>
+        <d-tagList markList="{{markList}}">
+                <d-add slot="before"/>
+        </d-tagList>
+    </view>
+    <view class="typeList">
+        <view class="typeBox" wx:for="{{tagListData}}" wx:key="{{item.title}}">
+            <text class="title">{{item.title}} ></text>
+            <view class="type" wx:for="{{item.tagList}}" wx:key="{{item.tag}}">
+                <text class="typeName"># {{item.tag}}</text>
+                <!-- <text class="typeStatus">订阅</text> -->
+                <d-dingyue class="typeStatus" tag="{{item.tag}}" tagId="{{item.tagId}}" catch:tap="DingTap"/>
+            </view>
+        </view>
+    </view>
+</view>

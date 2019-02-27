@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    margin-left: 325rpx;
+}
+.circle{
+    width: 60rpx;
+    height: 60rpx;
+    background-color: rgb(99, 91, 91);
+    border-radius: 50%;
+    position: absolute;
+    opacity: 0.6;
+    animation: run 2s infinite;
+}
+@keyframes run {
+    0%{
+        transform: scale(0)
+    }
+    50%{
+        transform: scale(1)
+    }
+    100%{
+        transform:scale(0)
+    }
+}
+
+.circle1{
+    animation-delay: 1s;
+}

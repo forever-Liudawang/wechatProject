@@ -1,0 +1,3 @@
+<view class="{{status=='common'?'get':'geted'}}" catch:tap="Tap">
+    {{status=='common'?'订阅':'已定阅'}}
+</view>

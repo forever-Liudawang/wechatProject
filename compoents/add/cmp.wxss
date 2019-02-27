@@ -1,0 +1,9 @@
+.add{
+    border-radius: 10rpx;
+    display: inline-block;
+    padding:6rpx 14rpx;
+    border: 1px solid rgb(114, 110, 110);
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    margin-right: 10rpx;
+}

@@ -1,0 +1,22 @@
+<view class="nineBox">
+    <view class="nineImg">
+        <image catch:tap="imgTap" 
+               wx:for="{{imgArray}}" 
+               wx:key="*this" 
+               src="{{item}}" 
+               data-Ind="{{index}}"
+               wx:if="{{index<9}}"/>
+        <!-- <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3782685451,3066622536&fm=27&gp=0.jpg" />
+        <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2847223552,3832031298&fm=27&gp=0.jpg" />
+        <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=260329114,3367670618&fm=27&gp=0.jpg" />
+        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4102788539,2089365951&fm=27&gp=0.jpg" />
+        <image src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2455124658,3365855213&fm=27&gp=0.jpg" />
+        <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=639238630,2179659181&fm=27&gp=0.jpg" />
+        <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1246903137,3024208895&fm=27&gp=0.jpg" />
+        <image src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=973931041,1439083005&fm=27&gp=0.jpg" /> -->
+        <text class="imgCount" wx:if="{{imgArray.length>=9}}">{{imgArray.length}}</text>
+    </view>
+    <view class="textBox">
+        <text class="text">的非官方大师感到反感的是法国豆腐干地方</text>
+    </view>
+</view>

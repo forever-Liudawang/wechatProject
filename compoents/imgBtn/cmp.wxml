@@ -1,0 +1,4 @@
+<button plain="{{true}}" class="imgBtn" open-type="{{openType}}">
+    <image class="img" src="/img/icon/Icon_relay.png" />
+    <!-- <slot class="Img" name="img"></slot> -->
+</button>

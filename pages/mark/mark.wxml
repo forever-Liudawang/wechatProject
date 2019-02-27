@@ -1,0 +1,19 @@
+<view class="markBox">
+    <view class="info">
+        <text class="name">{{userInfo.nickName}}</text>
+        <view class="logo">
+            <image wx:if="{{author}}" class="img" src="{{userInfo.avatarUrl}}" />
+            <button class="authorBtn" wx:else style="width:10px" open-type="getUserInfo" bindgetuserinfo="getUserInfo">
+                <image class="authorImg" src="/img/images/mark/login.png" />
+            </button>
+
+        </view>
+    </view>
+    <view class="share">
+    <!-- <button class="shareBtn" open-type="share">
+            <image class="shareImg" src="/img/icon/Icon_relay.png"/>
+    </button> -->
+    <d-imgBtn open-type="share"/>
+    </view>
+</view>
+    <d-article class="d-article" wx:for="{{likeList}}" articleDetail="{{item}}" wx:key="{{item.artId}}"/>

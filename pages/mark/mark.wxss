@@ -1,0 +1,75 @@
+page{
+    background-color: rgb(211, 204, 204);
+}
+.markBox{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 0 30rpx;
+    position: relative;
+    height:300rpx;
+    box-sizing: border-box;
+}
+.info{
+    width: 100%;
+    position: relative;
+    
+}
+.name{
+    color: rgb(42, 41, 41);
+    font-size: 40rpx;
+    position: absolute;
+    left: 10rpx;
+
+}
+.logo{
+    width: 100rpx;
+    height: 100rpx;
+    display: inline-block;
+    position: absolute;
+    right: 10rpx;
+}
+.img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.share{
+    width:60rpx;
+    height: 60rpx;
+    position: absolute;
+    bottom: 10rpx;
+    left: 40rpx;
+}
+
+.authorBtn,.shareBtn{
+    display: inline-block;
+    border:0;
+    padding: 0;
+    background-color: transparent;
+    width: 70rpx;
+    height: 70rpx;
+    overflow: visible;
+}
+.authorBtn::after {
+    border: none
+  }
+  .shareBtn::after{
+      border:none;
+  }
+.authorImg,.shareImg{
+    display: inline-block;
+    width: 100rpx;
+    height: 100rpx;
+    overflow: hidden;
+}
+.shareImg{
+    width: 80rpx;
+    height: 80rpx;
+}
+.d-article{
+    display: block;
+    width: 100%;
+    margin-top: 100rpx;
+    background-color: #fff;
+}

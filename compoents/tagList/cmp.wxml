@@ -1,0 +1,5 @@
+<view class="tagList">
+    <slot name="before"></slot>
+    <d-tag wx:for="{{markList}}" wx:key="{{item.type}}" tagText="{{item.type}}" tagId="{{typeId}}" class="list-tag"/>
+    <slot name="after"></slot>
+</view>

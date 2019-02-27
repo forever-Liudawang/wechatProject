@@ -1,0 +1,9 @@
+<view class="textImgBox">
+    <view class="Text">
+        <view class="mainText">{{text}}</view>
+        <view class="direction">{{direction}}</view>
+    </view>
+    <view class="imgBox">
+        <image class="img" src="{{Imgsrc}}"/>
+    </view>
+</view>

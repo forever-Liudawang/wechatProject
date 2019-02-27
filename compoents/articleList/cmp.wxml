@@ -1,0 +1,8 @@
+<a-article wx:for="{{articleList}}"
+           wx:key="{{item.artId}}" 
+           articleDetail="{{item}}" 
+           style="margin-left:10rpx;backgroundColor:#fff"/>
+<text  wx:if="{{noMoreData}}" class="noMore">没有更多了</text>
+<d-Loading hidden="{{noMoreData}}" class="loading"/>
+
+

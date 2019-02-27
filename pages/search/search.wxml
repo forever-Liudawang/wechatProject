@@ -1,0 +1,11 @@
+<view class="searchContainer">
+    <d-search class="search" value="{{val}}"/>
+
+    <view class="titleBox">
+        <view class="title">#{{tag}}></view>
+        <view class="info">
+            <view class="mation" wx:for="{{recommendData}}" wx:key="*this">{{item}}</view>
+        </view>
+    </view>
+    <d-articleList articleList="{{articleData}}" word="{{tag}}" more="{{more}}"/>
+</view>

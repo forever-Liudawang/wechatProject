@@ -1,0 +1,15 @@
+<scroll-view class="navBox" scroll-x="{{true}}" scroll-into-view="{{activeId}}" scroll-with-animation="{{true}}">
+        <!-- <text class="type">青芒</text>
+        <text class="type">兴趣</text>
+        <text class="type">物质</text>
+        <text class="type">世界</text>
+        <text class="type">新事</text>
+        <text class="type">灵魂</text> -->
+
+        <text wx:for="{{navList}}" 
+              wx:key="*this"
+               class="type {{index==activeIn?'active':''}}"
+              bind:tap="navTap"
+              data-index="{{index}}"
+              id="{{'magazine'+index}}">{{item}}</text>
+</scroll-view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "d-article":"/compoents/article/cmp",
+    "d-imgBtn":"/compoents/imgBtn/cmp"
+  }
+}

@@ -1,0 +1,36 @@
+.nineBox{
+    padding: 0 20rpx;
+}
+.nineImg{
+    width: 100%;
+    height: 630rpx;
+    display: flex;
+    justify-content:space-between;
+    align-content:space-between;
+    flex-wrap: wrap;
+    position: relative;
+}
+.nineImg image{
+    width: 31%;
+    height: 31%
+}
+.textBox{
+    padding: 0 30rpx;
+}
+.text{
+    font-size: 40rpx;
+    color: rgb(29, 30, 31);
+    font-weight: 400;
+}
+.imgCount{
+    width: 60rpx;
+    height: 60rpx;
+    background-color: rgba(15, 15, 15,.7);
+    border-radius: 6rpx;
+    color: rgb(184, 170, 170);
+    position: absolute;
+    right: 70rpx;
+    bottom: 70rpx;
+    text-align: center;
+    line-height: 60rpx;
+}

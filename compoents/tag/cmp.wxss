@@ -1,0 +1,7 @@
+.tab{
+    border-radius: 10rpx;
+    display: inline-block;
+    padding:6rpx 14rpx;
+    border: 1px solid rgb(114, 110, 110);
+    font-size: 37rpx;
+}

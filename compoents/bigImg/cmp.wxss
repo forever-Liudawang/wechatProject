@@ -1,0 +1,13 @@
+.box{
+    padding: 0  30rpx;
+}
+.bigImg{
+    width: 100%;
+}
+.text{
+    font-size: 40rpx;
+    color: rgb(49, 51, 53); 
+   
+    padding-left: 40rpx;
+    font-weight:bold;
+}
